@@ -10,7 +10,8 @@ class DBHelper {
   static get DATABASE_URL() {
     const port = 5500 // Change this to your server port
     //return `http://localhost:${port}/data/restaurants.json`;
-    return `https://amitverma07.github.io/Restaurant-Review-App/js/dbhelper.js`
+    //return `https://amitverma07.github.io/Restaurant-Review-App/js/dbhelper.js`
+    return `https://github.com/amitverma07/Restaurant-Review-App/blob/master/data/restaurants.json`;
   }
 
   /**
