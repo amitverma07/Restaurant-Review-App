@@ -1,4 +1,3 @@
-//console.log("hi");
 self.addEventListener("install", e => {
   console.log("hi");
 })
