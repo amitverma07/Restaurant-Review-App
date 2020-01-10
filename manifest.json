@@ -1,0 +1,16 @@
+{
+  "short_name" : "Restaurant Reviews",
+  "name" : "Restaurant Review Information",
+  "icons" : [
+    {
+      "src" : "chopsticks.png",
+      "type" : "image/png",
+      "sizes" : "512x512"
+    }
+  ],
+  "start_url" : "/restaurant-project/",
+  "background_color" : "#ad0c0c",
+  "display" : "standalone",
+  "scope" : "/restaurant-project/",
+  "theme_color" : "#f7f5f5"
+}
