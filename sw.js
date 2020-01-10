@@ -31,15 +31,14 @@ self.addEventListener("install", e => {
         cache.addAll(cacheAssets);
       })
       .then(() => self.skipWaiting())
-      // .catch(error => {
-      //   console.log("Some Error Occured" + error)
-      // })
+    // .catch(error => {
+    //   console.log("Some Error Occured" + error)
+    // })
   );
 });
 
 //Activate Event
 self.addEventListener("activate", e => {
-  console.log("hi");
   e.waitUntil(
     caches.keys().then(cacheVersions => {
       return Promise.all(
@@ -54,11 +53,6 @@ self.addEventListener("activate", e => {
 });
 
 //Fetch Event
-// self.addEventListener("fetch", e => {
-//   console.log("heee");
-//   e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
-// });
-
 self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.open(cacheVersion).then(function (cache) {
