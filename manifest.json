@@ -8,9 +8,9 @@
       "sizes" : "512x512"
     }
   ],
-  "start_url" : "/restaurant-project/",
+  "start_url" : "/index.html",
   "background_color" : "#ad0c0c",
   "display" : "standalone",
-  "scope" : "/restaurant-project/",
+  "scope" : ".",
   "theme_color" : "#f7f5f5"
 }
