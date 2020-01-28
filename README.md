@@ -1,5 +1,12 @@
-#### Project - Restaurant Reviews
+# Project - Restaurant Reviews
 
 ## Project Overview:
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In this, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+The **Restaurant Reviews** project, incrementally convert a static webpage to a mobile-ready web application. This project converts the static design that lacked accessibility to the design which is responsive on different sized displays and accessible for screen reader use. This project also uses the service worker to provide a seamless offline experience for users.
+
+![srceen shot](https://raw.githubusercontent.com/amitverma07/Restaurant-Review-App/master/readmess.PNG)
+
+## Technology Used
+- JavaScript
+- CSS
+- HTML
